@@ -67,9 +67,9 @@ db_Locations_db_schema.User = new mongoose.Schema({
 		type: 'String', 
 		required : true
 	},
-	roles: [{
+	roles: {
 		type: 'String'
-	}],
+	},
 	surname: {
 		type: 'String'
 	},
